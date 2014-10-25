@@ -125,7 +125,7 @@ padding-bottom:10px;
 						font-size: 10px;
 						}
 
-					.button1 {
+.button1 {
 	text-decoration:none; text-align:center; 
 	padding:11px 32px; 
 	border:solid 1px #11a1de; 
@@ -229,7 +229,7 @@ padding-bottom:10px;
 			clear: both;
 			width: 960px;
 			height: 60px;
-			border: solid 1px #CCCCCC;
+			border: solid 1px rgb(250,250,250);
 			text-align: center;
 			font-size: 19px;
 			padding-top: 20px;

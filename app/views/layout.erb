@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gritter!</title>
+        <link rel="stylesheet" type="text/css" href="/css/application.css">  
+    </head>
+  <body>
+  	<%= partial :header %>
+  <section class="all"><br><br>
+    <%= partial :flash %>
+    <%= partial :greet_section %>
+    <%= yield %>
+  </section>
+  	<%= partial :footer %>
+  </body>
+</html>
