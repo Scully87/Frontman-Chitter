@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class Frontman_Chitter < Sinatra::Base
   get '/' do
-    erb :index
+    send_file './index.html'
   end
 
   # start the server if ruby file executed directly

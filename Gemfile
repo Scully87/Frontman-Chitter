@@ -15,6 +15,7 @@ gem 'pg'
 gem 'json'
 
 group :development, :test do
+	gem 'dm-sqlite-adapter'
 	gem 'rspec'
 	gem 'database_cleaner'
 	gem 'capybara'
