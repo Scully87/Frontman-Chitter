@@ -8,9 +8,10 @@ class Greet
 	property :id,         Serial
 	property :body,       String, length: 1..150
 	property :user_name,  String
-	property :name, 	  String
+	property :name, 	  	String
 	property :created_at, DateTime
 
 	has 1, :user, :through => Resource
+	has n, :hashtags
 
 end
