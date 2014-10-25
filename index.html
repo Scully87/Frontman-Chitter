@@ -3,9 +3,10 @@
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <title>Frontman_Chitter</title>
-  <script type"text/javascript" src="src/jquery.js"></script>
-   <script type"text/javascript" src="src/handlebars.js"></script>
-   <script type"text/javascript" src="src/get.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- // <script type"text/javascript" src="public/src/jquery.js"></script> -->
+   <script type"text/javascript" src="public/src/handlebars.js"></script>
+   <script type"text/javascript" src="public/src/get.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="public/css/main.css"/>
 </head>
@@ -26,14 +27,14 @@
     <h3 class="respond"></h3>
     
         <section>
-        <img src="img/cone.jpg"><br>
-        <h2>Block 1 Title</h2><p>
-        Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
-        <a href="#"><img src="img/email_button.png"></a><a href="#"><img src="img/blog_button.png"></a><a href="#"><img src="img/social_button.png"></a>
+        <form>
+            Greet : <input type="text" name="body" placeholder="...." id="post_submits_greet">
+                    <input type="submit" value="Greet!" id="greet_button">
+        </form>
         </section>
           
         <aside><h2 class="peeps">Peeps</h2>
-            <p class="peeps"></p>
+     <p class="peeps"></p>
         
         </aside>
         

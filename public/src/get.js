@@ -1,4 +1,3 @@
-<script>
     $(document).ready(function () {
       // Load THINGS data immediately
       $.ajax({
@@ -6,17 +5,17 @@
         method: 'GET'
       }).done(function (data) {
         data.forEach(function (d) {
-          $('#things-index').append("<p><strong>" + d.title + "</strong>: " + d.description + "</p>");
+          $('.peeps').append("<p>" + d.body + "</p>");
         });
       });
 
       // Form to create a new Thing
-      $('#new-submit').click(function () {
+      $('#greet_button').click(function () {
         var data = {};
 
         // Get the data from the form elements
-        data.title = $('#new-title').val();
-        data.description = $('#new-description').val();
+        // data.title = $('#new-title').val();
+        data.body = $('#post_submits_greet').val();
 
         $.ajax({
           url: '/things',
@@ -30,4 +29,3 @@
         return false;
       });
     });
-  </script>
