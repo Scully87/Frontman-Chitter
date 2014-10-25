@@ -24,3 +24,14 @@ get '/' do
   erb :index
 end
 
+get '/api/chitter' do
+	@greets = Greet.all(:order => [:created_at.desc])
+  @greets_feed = @greets.to_json(
+    :relationships => {
+    :user => {:exclude => [:password_digest,:email]},
+    :hashtags => {:only => [:hastags]}
+    }
+  )
+  erb :json
+end
+
