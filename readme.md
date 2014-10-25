@@ -1,5 +1,5 @@
 ==========================================================================
-<section align="center"><h1>Frontman Badge Test</h1></section>
+<div align="center"><h1>Frontman Badge Test</h1></div>
 
 <p>"Your chitter application has been talked about in the internet and people
 are raving.
