@@ -3,7 +3,7 @@ require 'sinatra'
 require 'data_mapper'
 require 'rack-flash'
 require 'sinatra/partial'
-require 'json'
+require 'dm-serializer/to_json'
 
 require_relative 'models/greet'
 require_relative 'models/user'
