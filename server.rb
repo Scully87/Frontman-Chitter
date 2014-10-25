@@ -5,8 +5,8 @@ require 'rack-flash'
 require 'sinatra/partial'
 require 'json'
 
-require './lib/greet'
-require './lib/user'
+require './greet'
+require './user'
 
 require './app/helpers/application'
 require './app/data_mapper_setup'
@@ -22,15 +22,15 @@ get '/' do
   send_file './index.html'
 end
 
-# # Route to show all Things, ordered like a blog
-get '/things' do
-  content_type :json
-  @users = User.all
-	@greets = Greet.all 
+# # # Route to show all Things, ordered like a blog
+# get '/things' do
+#   content_type :json
+#   @users = User.all
+# 	@greets = Greet.all 
 
-  @users.to_json
-  @greets.to_json
-end
+#   @users.to_json
+#   @greets.to_json
+# end
 
 # # CREATE: Route to create a new Thing
 # post '/things' do
