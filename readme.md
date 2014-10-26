@@ -1,6 +1,6 @@
 ==========================================================================
-<div align="center"><h1>Frontman Badge Test</h1><br><a href="https://cryptic-thicket-1989.herokuapp.com/"><img class="birdie"src="https://github.com/Scully87/Frontman-Chitter/blob/master/app/public/images/birdie_new.png" width="100px" height="100px"></a>
-Click The Chitter Bird for link to site (in development)</div>
+<div align="center"><h1>Frontman Badge Test</h1><br><a href="https://cryptic-thicket-1989.herokuapp.com/"><img class="birdie"src="https://github.com/Scully87/Frontman-Chitter/blob/master/app/public/images/birdie_new.png" width="100px" height="100px"></a><br>
+Click The "Chitter" Bird for link to site (in development)</div><br>
 
 <p>"Your chitter application has been talked about in the internet and people
 are raving.
