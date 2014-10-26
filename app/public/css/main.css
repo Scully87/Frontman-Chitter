@@ -1,4 +1,6 @@
-*{ background:#C0DEED}
+html {
+	background:#C0DEED;
+}
 body {
 font-family: 'Abel', sans-serif;
 font-size: 1.1em;
@@ -73,6 +75,7 @@ img.birdie {
 				}*/
 	
 #wrapper {
+	
 	background: transparent;
 	position: relative;
 	width: 968px;
@@ -85,6 +88,7 @@ img.birdie {
 
 
 	#holder {
+		background:#C0DEED;
 		width: 968px;
 		height: 1300px;
 		/*border: solid 1px rgb(250,250,250);*/
@@ -339,6 +343,7 @@ img.birdie {
 			}
 
 		aside h2 {
+			
 			margin: 10px 0 0 150px;
 			border: solid 2px rgb(250,250,250);
 			border-radius: 10px;
@@ -352,9 +357,9 @@ img.birdie {
 			clear: both;
 			width: 960px;
 			height: 60px;
-			border: solid 1px rgb(250,250,250);
+			/*border: solid 1px rgb(250,250,250);*/
 			text-align: center;
-			font-size: 19px;
+			font-size: 25px;
 			padding-top: 20px;
 			}
 
