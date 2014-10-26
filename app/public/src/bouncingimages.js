@@ -23,7 +23,7 @@ bouncingImages.imgSrc = 'images/birdie_new.png';
 bouncingImages.frameRate = 100;
 
 bouncingImages.minRandomSpeed = 0.1;
-bouncingImages.maxRandomSpeed = 10;
+bouncingImages.maxRandomSpeed = 5;
 
 // MAIN:
 
