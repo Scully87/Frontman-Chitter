@@ -741,7 +741,7 @@ background: url(https://abs.twimg.com/images/themes/theme1/bg.png) center repeat
 	  background: rgb(232,242,247);
 	}
 	section form input {
-	  width: 90px;
+	  width: 100px;
 	  height: 4px;
 	  padding: 0.5em;
 	  margin: 5px 5px 5px 5px;
@@ -831,7 +831,7 @@ background: url(https://abs.twimg.com/images/themes/theme1/bg.png) center repeat
 	 opacity:0.36; 
 	 -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=36); 
 	 filter: alpha(opacity=36); 
-	 }*/
+	 }
 
 	section aside{
 	  width: 140px;
