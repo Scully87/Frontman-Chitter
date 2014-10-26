@@ -1,78 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-<audio src="./images/quack.mp3" autoplay></audio>
-<script language="JavaScript" src="./src/dynlib.js"></script>
-<script language="JavaScript" src="./src/bouncingimages.js"></script>
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-  <title>Frontman_Chitter</title>
-   <script type"text/javascript" src="/src/jquery.js"></script>
-   <script type"text/javascript" src="/src/handlebars.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/main.css"/>
-</head>
-   
+  <head>
+    <audio src="./images/quack.mp3" autoplay></audio>
+    <script language="JavaScript" src="./src/dynlib.js"></script>
+    <script language="JavaScript" src="./src/bouncingimages.js"></script>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>Frontman_Chitter</title>
+    <script type"text/javascript" src="/src/jquery.js"></script>
+    <script type"text/javascript" src="/src/handlebars.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css"/>
+  </head>
 <body onLoad="javascript:loadBouncingImages();">
-
-<div id="wrapper">
+  <div id="wrapper">
     <div id="holder">
-    <!--  <img class="birdie "src="./images/birdie_new.png">
-      <img class="birdie "src="./images/birdie_new.png">
-       <img class="birdie "src="./images/birdie_new.png">
-        <img class="birdie "src="./images/birdie_new.png">
-         <img class="birdie "src="./images/birdie_new.png">
-          <img class="birdie "src="./images/birdie_new.png">
-           <img class="birdie "src="./images/birdie_new.png">
-            <img class="birdie "src="./images/birdie_new.png">
-             <img class="birdie "src="./images/birdie_new.png">
-              <img class="birdie "src="./images/birdie_new.png">
-               <img class="birdie "src="./images/birdie_new.png">
-                <img class="birdie "src="./images/birdie_new.png">
-                 <img class="birdie "src="./images/birdie_new.png">
-                  <img class="birdie "src="./images/birdie_new.png">
-                   <img class="birdie "src="./images/birdie_new.png">
-                    <img class="birdie "src="./images/birdie_new.png">
-                     <img class="birdie "src="./images/birdie_new.png">
-                      <img class="birdie "src="./images/birdie_new.png">
- -->
-    <header>
-    <h1>Chitter</h1>
-        <nav>
-            <a class="button1" type="button" href="#">Home!</a>
-            <a class="button1" type="button" href="#">Sign In!</a>
-            <a class="button1" type="button" href="#">Sign Up!</a>
-        </nav>
-    </header>
-    
-    
-    <div id="maincontent">
-  
-   
-    <section class="peep-profile">
-        <span>User image</span>
-        <article><p>User Details</p>
-
-        <form>
-          <input type="text" name="peep" placeholder="Compose new Peep...">
-          <a class="button_peep" type="button" href="#">Peep!</a>
-        </form>
-        <article>
-    </section>
-
-
+        <header>
+          <h1>Chitter</h1>
+            <nav>
+              <a class="button1" type="button" href="#">Home!</a>
+              <a class="button1" type="button" href="#">Sign In!</a>
+              <a class="button1" type="button" href="#">Sign Up!</a>
+            </nav>
+        </header>
+      <div id="maincontent">
+        <section class="peep-profile">
+          <span>User image</span>
+          <article><p>User Details</p>
+            <form>
+              <input type="text" name="peep" placeholder="Compose new Peep...">
+              <a class="button_peep" type="button" href="#">Peep!</a>
+            </form>
+          <article>
+        </section>
         <aside><h2 class="peeps">Peeps</h2>
-     <p class="peeps"></p>
-        
-        </aside>
-        
+           <p class="peeps"></p>
+        </aside>  
+      </div>    
     </div>
-    
-    
-</div>
-
-<footer>&copy;hitter 2014</footer>
-</div>
-
+    <footer>&copy;hitter 2014</footer>
+  </div>
 </body>
 </html>
