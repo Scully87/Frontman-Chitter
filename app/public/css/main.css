@@ -59,8 +59,8 @@ img.birdie {
 	width: 50px;
 	height: 50px;
 }
-
-/*	h1 {
+/*
+	h1 {
 		font-size: 4.2em;
 
 		}
@@ -108,7 +108,7 @@ img.birdie {
 		
 		header h1 {
 		background: transparent;
-		font-size: 5.0em;
+		font-size: 7.0em;
 		margin: 0 0 0 0;
 		width: 450px;
 		padding: 0 0 0 0px;
@@ -234,20 +234,21 @@ img.birdie {
 	}
 
 	section form{
-		width: 290px;
-		height: 58px;
-	  padding: 8.1% 0% 5% 4%;
+		width: 301px;
+		height: 68px;
+	  padding: 15.1% 0% 5% 4%;
 	  background: rgb(232,242,247);
 	}
 	section form input {
 	  width: 264px;
 	  height: 22px;
-	  padding: 0.5em;
+	  padding: 1.5em;
 	  margin: 0 5px 10px 0px;
 	}
 	.button_peep {
 	text-decoration:none; text-align:center; 
-	padding:2px 15px; 
+
+	padding:8px 8px 8px 8px;
 	border:solid 1px #11a1de; 
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px; 
@@ -343,7 +344,7 @@ img.birdie {
 			}
 
 		aside h2 {
-			
+
 			margin: 10px 0 0 150px;
 			border: solid 2px rgb(250,250,250);
 			border-radius: 10px;
@@ -488,9 +489,10 @@ img.birdie {
 html {
 	height: 736px;
 	width: 414px;
+	background:#C0DEED
 }
 
- * { background:#C0DEED}
+ 
 body {
 	height: 736px;
 	width: 414px;
@@ -584,31 +586,34 @@ background: url(https://abs.twimg.com/images/themes/theme1/bg.png) center repeat
 				width: 360px;
 				height: 70px;
 				right: 5px;
-				top: -70px;
+				top: -90px;
+				
 		}
 		
 		header h1 {
 		background: transparent;
-		font-size: 2.0em;
+		font-size: 3.0em;
 		margin: 0 0 10px 0;
 		width: 100px;
 		padding: 0 30px 30px 0px;
+		top: -90px;
 		}
 	
 						
 						header nav {
-							right: -35px;
+						top: 100px;
 						background: transparent;
 						position: absolute;					
-						float: right;
+						/*float: right;*/
 						display: block;
-						width: 230px;
+						width: 350px;
 						height: 35px;
 						font-size: 10px;
 						}
 
-a.button1 {
-	width: 40px;
+.button1 {
+	width: 10px;
+	height: 5px;
 	margin-top: 2px;
 	position: center;
 	text-decoration:none; text-align:center; 
@@ -617,16 +622,16 @@ a.button1 {
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px; 
 	border-radius: 4px; 
-	font:14px Arial, Helvetica, sans-serif; 
+	font:10px Arial, Helvetica, sans-serif; 
 	font-weight:bold; 
 	color:#ffffff; 
 	background-color:#3ba4c7; 
-	background-image: -moz-linear-gradient(top, #3ba4c7 0%, #15aadb 100%); 
-	background-image: -webkit-linear-gradient(top, #3ba4c7 0%, #15aadb 100%); 
-	background-image: -o-linear-gradient(top, #3ba4c7 0%, #15aadb 100%); 
-	background-image: -ms-linear-gradient(top, #3ba4c7 0% ,#15aadb 100%); 
+	background-image: -moz-linear-gradient(top, #3ba4c7 0%, #15aadb 50%); 
+	background-image: -webkit-linear-gradient(top, #3ba4c7 0%, #15aadb 50%); 
+	background-image: -o-linear-gradient(top, #3ba4c7 0%, #15aadb 50%); 
+	background-image: -ms-linear-gradient(top, #3ba4c7 0% ,#15aadb 50%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15aadb', endColorstr='#15aadb',GradientType=0 ); 
-	background-image: linear-gradient(top, #3ba4c7 0% ,#15aadb 100%);   
+	background-image: linear-gradient(top, #3ba4c7 0% ,#15aadb 50%);   
 	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
 	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
@@ -730,8 +735,8 @@ a.button1 {
 
 	section form{
 		font-size: 12px;
-		width: 119px;
-		height: 52px;
+		width: 120px;
+		height: 72px;
 	  padding: 5% 0% 0.5% 4%;
 	  background: rgb(232,242,247);
 	}
@@ -839,7 +844,7 @@ a.button1 {
 			background-color: rgb(250,250,250);
 			/*opacity: 0.6;*/
 			float: right;
-			width: 175px;
+			width: 185px;
 			height: 650px;
 			/*margin: 2px;*/
 			border: solid 2px rgb(250,250,250);
